@@ -98,3 +98,9 @@ fisherXY(mydata$race,mydata$eatout)
 ```
   
 945 white people who ate out and 192 that did not. While the other race there was 75 that ate out and 29 did not. The odds of a white person is 2.2 times higher than a black person eating out. the white people almost 2 times greater than the black people do by 1.9 times often than the other race does. 
+
+```{r}
+fisherXY(mydata$race,mydata$eatout,printAll = TRUE)
+```
+  
+The odds of the two races eating out where 0 is between the odds and the odds are .06 and 1 is in the middle. Where 1 being the middle, they are both different, meaning the black and white people eating out and in. The P value of white people is greater than 0.05, while the p-value is lower for black. The white and black have a difference of 2.2 eating out. Fisherxy is the analog to Tuki HD. 
