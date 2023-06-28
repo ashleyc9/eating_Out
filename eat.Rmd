@@ -29,7 +29,7 @@ require(foreign)
 ```
 
 
-```{r, eval=TRUE}
+```{r, eval=TRUE, warning=FALSE}
 #GSS <-(read_dta(file="GSS1998.dta))
 GSS<- readstata13::read.dta13(file="GSS1998.dta")
 GSS <-droplevels(GSS)
@@ -104,3 +104,7 @@ fisherXY(mydata$race,mydata$eatout,printAll = TRUE)
 ```
   
 The odds of the two races eating out where 0 is between the odds and the odds are .06 and 1 is in the middle. Where 1 being the middle, they are both different, meaning the black and white people eating out and in. The P value of white people is greater than 0.05, while the p-value is lower for black. The white and black have a difference of 2.2 eating out. Fisherxy is the analog to Tuki HD. 
+
+##Conclusion
+
+Overall, there was a lot more white people than the other races and they had a greater p-value and percenatge of them eating out but they had the less amount of the other races of them eating in. The black people had the second highest amount of people eating out, but had the most of people eating in. Above the conclusion, there was graphs, charts and data that shows the amounts and percentages of how many people eat out and in. 
