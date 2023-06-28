@@ -83,5 +83,6 @@ table1 <- xtabs(~race + eatout, data=mydata)
 rowPerc(table1)
 colPerc(table1)
 ```
-
+  
+We have a numerical results of white people who are eating out the most and almost 70 percent of black people eat out, while 28 of them eat in. There is more white people out of the races, but they have the least amount of people who eat in. 
 
