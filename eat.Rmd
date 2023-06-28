@@ -44,7 +44,8 @@ barchartGC(~race + eatout,data=mydata)
 barchartGC(~race + eatout,data=mydata, type="percent")
 
 ```
-
+  
+In the percent wise there was not much of a difference in th percent of eating out from black and other races. The white people were eating out more than the other races. 
 
 
 
@@ -73,11 +74,7 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
 
-```{r}
-barchartGC(~race + eatout,data=mydata)
-barchartGC(~race + eatout,data=mydata, type="percent")
 
-```
 
 
 ```{r}
